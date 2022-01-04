@@ -15,14 +15,14 @@ import java.awt.Font;
 
 public class PongPanel extends JPanel implements ActionListener, KeyListener {
 	
-	private final static Color BACKGROUND_COLOUR = Color.WHITE;
+	private final static Color BACKGROUND_COLOUR = Color.BLACK;
 	private final static int TIMER_DELAY = 5;
 	private final static int BALL_MOVEMENT_SPEED = 2;
 	private final static int POINTS_TO_WIN = 11;
 	private final static int SCORE_TEXT_X = 100;
 	private final static int SCORE_TEXT_Y = 100;
 	private final static int SCORE_FONT_SIZE = 50;
-	private final static String FONT_FAMILY = "Serif";
+	private final static String FONT_FAMILY = "SansSerif";
 	private final static int WIN_MESSAGE_TEXT_X = 50;
 	private final static int WIN_MESSAGE_TEXT_Y = 200;
 	private final static int WIN_MESSAGE_FONT_SIZE = 40;
